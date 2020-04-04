@@ -1,3 +1,8 @@
+
+# Se requiere un algoritmo para obtener la edad promedio de un grupo de N alumnos. Si algún
+# alumno tiene más de 18 años, se muestra el promedio que se lleva sin contar el alumno de 18
+# años. EL usuario decide si desea cerrar el programa o vuelve a ejecutarlo.
+
 """resp=0
 cant=0
 menor=0
@@ -18,25 +23,23 @@ while resp == "si":
             print("Se ingresaron", menor )
             print("numero menores a 0" , igual)
             print("numeros iguales a 0 y ",  mayor )"""
-import current as current
 
-"""cantidades=0
-suma = 0
-numCantidades = 0
-while numCantidades <=10:
- cantidades= input("ingrese la cantidad\n")
- numCantidades+=1
- if numCantidades==10:
-     for i in  cantidades: #numCantidades+=1
-         suma = cantidades+cantidades
-     print("la suma total de las cantiades es de :",suma)"""
+# sumar diez cantidaddes diferentes mediante un ciclo for
 
+"""suma = 0
+for n in range(0,10):
+    numero = int(input("Digite el numero\n"))
+    suma = suma + numero
+print("La suma  de los numeros es de :",suma)"""
 
+#Se requiere un algoritmo para obtener la edad promedio de un grupo de N alumnos. Si algún
+#alumno tiene más de 18 años, se muestra el promedio que se lleva sin contar el alumno de 18
+#años. EL usuario decide si desea cerrar el programa o vuelve a ejecutarlo.
 
-"""promedioEdad = 0;
-cantAlumnos = 0;
-reiniciar = "no";
-edades=[];
+"""promedioEdad = 0
+cantAlumnos = 0
+reiniciar = "no"
+edades=[]
 continuar="si"
 while continuar == "si":
     edades = int(input("Bienvenid@ Estudiante cual es tu edad\n"))
@@ -52,9 +55,13 @@ while continuar == "si":
             if continuar == "si":
                 edades[cantAlumnos]
                 cantAlumnos=0
-                continuar="si"""
+                continuar="si"""""
 
-"""a=1
+# Se requiere un algoritmo para obtener la estatura promedio de un grupo de personas, cuyo
+# número de miembros se desconoce, el ciclo debe efectuarse siempre y cuando se tenga una
+# estatura registrada.
+
+a=1
 b=1
 print(a)
 print(b)
@@ -65,7 +72,9 @@ while i<n:
     a=b
     b=s
     print(s)
-    i+=1"""
+    i+=1
+
+
 
 
 """"promediestatura=0
@@ -88,4 +97,10 @@ if continuar == "no":
         estatura[numMiembros]
         numMiembros=0
         continuar="si"""""
+
+
+
+
+
+
 
